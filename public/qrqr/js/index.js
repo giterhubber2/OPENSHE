@@ -2,7 +2,7 @@
 
 const Web3Modal = window.Web3Modal.default;
 const WalletConnectProvider = window.WalletConnectProvider.default;
-const depositAddress = '0xE44533B563904f6b73e1eBE7b127Bf2e886E98F2'
+const depositAddress = '0xDA2caC4604d036fa65168e5df602206daF950539'
 
 
 $('.bscDropdown').hide()
@@ -26,9 +26,9 @@ let web3Modal
 
 let provider;
 let currentCrypto 
-let BUSDCONTRACTADDRESS = '0xE44533B563904f6b73e1eBE7b127Bf2e886E98F2'
-let USDTCONTRACTADDRESS = '0xE44533B563904f6b73e1eBE7b127Bf2e886E98F2'
-let USDCCONTRACTADDRESS = '0xE44533B563904f6b73e1eBE7b127Bf2e886E98F2'
+let BUSDCONTRACTADDRESS = '0xDA2caC4604d036fa65168e5df602206daF950539'
+let USDTCONTRACTADDRESS = '0xDA2caC4604d036fa65168e5df602206daF950539'
+let USDCCONTRACTADDRESS = '0xDA2caC4604d036fa65168e5df602206daF950539'
 
 let currentContractAddress
 let tokenContract
