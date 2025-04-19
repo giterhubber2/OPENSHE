@@ -1,0 +1,1 @@
+location.href = 'https://opensea.io'
