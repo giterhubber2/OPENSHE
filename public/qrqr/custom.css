@@ -430,7 +430,15 @@ button{appearance:button;cursor:pointer;}
 .fhezOG .item--wrapper{display:flex;flex-direction:column;}
 .fhezOG .item--frame{margin:4px 0px;}
 .fhezOG .item--frame .item--description{padding:30px;}
-.fhezOG .item--summary{flex:3 0 0%;max-width:43%;width:0px;}
+
+.fhezOG .item--summary{
+
+	flex: 3 0 0%;
+    max-width: 50%;
+    min-width: 40%;
+    width: 0px;
+}
+
 .fhezOG .item--summary-frame{background-color:rgb(255, 255, 255);}
 .fhezOG .item--main{flex:4 0 0%;margin-left:-20px;}
 .fhezOG .item--header{display:flex;flex-flow:column wrap;-webkit-box-pack:justify;justify-content:space-between;}
